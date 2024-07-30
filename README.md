@@ -8,12 +8,12 @@ STEMinate is a web-based platform designed to connect women in Science, Technolo
 
 # Key Features:
 The application will consists of the following components:
-User Registration and Authentication System
-User Profile Management
-Mentor-Mentee Matching Algorithm
-Communication Tools (chatspace)
-Resource Library
-Administrative Dashboard
+User Registration and Authentication System,
+User Profile Management,
+Mentor-Mentee Matching Algorithm,
+Communication Tools (chatspace),
+Resource Library,
+Administrative Dashboard.
 
 
 # Technology Stack and Tools:
