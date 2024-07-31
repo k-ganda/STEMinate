@@ -36,6 +36,10 @@ def load_user(user_id):
     """
     return User.query.get(int(user_id))  # Convert user_id to integer for database lookup
 
+conversation_participants = db.Table('conversation_participants',
+    db.Column('conversation_id', db.Integer, db.ForeignKey('conversation.id')),
+    db.Column('user_id', db.Integer, db.ForeignKey('user.id'))
+)
 
 class Conversation(db.Model):
     id = db.Column(db.Integer, primary_key=True)
