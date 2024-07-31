@@ -1,5 +1,4 @@
 Flask==2.0.1
-werkzeug==2.0.3
 Flask-SQLAlchemy==2.5.1
 Flask-Login==0.5.0
 Flask-CORS==3.0.10
@@ -7,3 +6,4 @@ Flask-SocketIO==5.1.1
 python-socketio==5.5.0
 python-engineio==4.3.0
 gunicorn
+SQLAlchemy==1.4.47
