@@ -1,8 +1,8 @@
 from flask import Blueprint, render_template, flash, redirect, url_for, request, jsonify
-from app.database import db
-from app.models import User, Conversation, Message
+from back_end.database import db
+from back_end.models import User, Conversation, Message
 from flask_login import login_user, logout_user, current_user, login_required
-from app.forms import LoginForm, RegistrationForm, EditProfileForm
+from back_end.forms import LoginForm, RegistrationForm, EditProfileForm
 
 auth = Blueprint('auth', __name__)
 routes_bp = Blueprint('routes', __name__)
