@@ -8,3 +8,4 @@ python-engineio==4.3.0
 gunicorn
 SQLAlchemy==1.4.47
 Werkzeug==2.0.1
+flask-wtf
